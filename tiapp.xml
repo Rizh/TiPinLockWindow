@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>pk.ansriaz.pinlock</id>
+  <name>pinlock</name>
+  <version>1.0</version>
+  <publisher>ansriaz</publisher>
+  <url>http://about.me/rizh</url>
+  <description/>
+  <copyright>2015 by ansriaz</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>742d8b3d-7542-409d-9222-4a03e2ae21f1</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+      <precache/>
+      <splash>
+        <enabled>true</enabled>
+        <inline-css-images>true</inline-css-images>
+      </splash>
+      <theme>default</theme>
+    </mobileweb>
+    <modules/>
+    <deployment-targets>
+      <target device="android">true</target>
+      <target device="ipad">false</target>
+      <target device="iphone">true</target>
+      <target device="mobileweb">false</target>
+      <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.0.2.GA</sdk-version>
+    <property name="appc-app-id" type="string">563a8b318b96e6fd2b690072</property>
+  </ti:app>
